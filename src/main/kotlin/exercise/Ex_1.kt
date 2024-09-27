@@ -5,10 +5,10 @@ import kotlin.math.sqrt
 // This cover L1-L6
 
 /*
-* WAP to take a num from user and count the digit.
-* WAP to take a num from user and reverse it.
-* WAP to take a num from user and find the sum of cube of each digit of the num.
-* WAP to take a num and check whether it is prime or not.
+* TODO: WAP to take a num from user and count the digit.
+* TODO: WAP to take a num from user and reverse it.
+* TODO: WAP to take a num from user and find the sum of cube of each digit of the num.
+* TODO: WAP to take a num and check whether it is prime or not.
 */
 
 fun countDigit(num: Int){

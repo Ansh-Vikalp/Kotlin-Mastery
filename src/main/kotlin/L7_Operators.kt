@@ -1,5 +1,5 @@
 fun main(){
-    /*
+    /* IntelliJ IDEA Community Edition 2024.2.2
     Operators are used to perform operation or tasks on an operand
     c :operand  = :operator   a :operand    + : operator     b :operand
     These operand can be either variable or value
@@ -93,6 +93,7 @@ fun main(){
     println("right-shift by 1= ${g1 shr 1}")
     println("unsigned-right-shift by 1= ${g1 ushr 1}")
     println()
+
 
 
 

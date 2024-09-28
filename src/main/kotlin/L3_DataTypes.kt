@@ -53,7 +53,7 @@ fun main(){
 
 /*    ------------------------------------------------------------------------
     Also note variable type and literal type need to exact same we can create like this-No support for Automatic Widening Conversion
-     var kk: Double= 27 Gives ERROR int can be implicitly converted to Double
+     var kk: Double= 27 Gives ERROR: int can be implicitly converted to Double
     ------------------------------------------------------------------------
 */
 
@@ -83,7 +83,7 @@ fun main(){
     println("Expression answer \$ans = ${ans * 1}")
 
 
-    // Array data Type-Collection of similar types of data at sequential location
+    // Array data Type- Collection of similar types of data at sequential location
     val marks= arrayOf(23, 40, 33, 70, 100)
     val activity: Array<String> = arrayOf("Cricket", "Programming", "Baseball", "Music")
 

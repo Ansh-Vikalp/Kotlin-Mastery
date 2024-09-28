@@ -6,7 +6,7 @@ fun main(){
 */
     var name= "Ansh Vikalp" // var value can be changed (mutable)
     val id= 5134 // val value can't be changed (immutable)
-    // id =6789 ERROR can't be changed
+    // id =6789 ERROR: can't be changed
 
 //  STRING CONCATENATION
     println("Employee: "+ name + ":" + id)

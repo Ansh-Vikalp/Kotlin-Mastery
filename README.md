@@ -1,10 +1,10 @@
-<table>
+<table border="0px">
   <tr>
     <td align="center">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin Logo" width="60" height="60">
     </td>
     <td align="center">
-      <span style="font-size: 2em;">Kotlin-Mastery</span>
+     <h1> Kotlin-Mastery </h1>
     </td>
   </tr>
 </table>

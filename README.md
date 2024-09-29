@@ -1,7 +1,13 @@
-<div style="padding: 8px">
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin Logo" width="60" height="60" style="vertical-align: middle; border-radius:10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);">
-<span style="font-size: 2.1em; vertical-align: middle; padding: 10px">Kotlin-Mastery</span>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin Logo" width="60" height="60">
+    </td>
+    <td align="center">
+      <span style="font-size: 2em;">Kotlin-Mastery</span>
+    </td>
+  </tr>
+</table>
 
 Welcome to **Kotlin-Mastery**! 🚀
 

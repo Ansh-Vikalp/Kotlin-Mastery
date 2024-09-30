@@ -101,10 +101,12 @@ fun cubeOfNumber(x: Int,
 }
 
 
-//Example 5: Higher-Order Function Taking a lambda Function as a Parameter and returning same lambda Function of type () -> Unit
-fun greeting(): () -> Unit{
-    //returning a lambda function
-    return { println("Hurray! You have understood Higher Order functions!") }
+//Example 5: Higher-Order Function Taking a lambda Function as a Parameter and returning same lambda Function of type (Double) -> Unit
+fun greeting(o: Int, callBack: (Double) -> Unit): (Double) -> Unit{
+    //returning a lambda function that takes Double and returns Unit
+    //Note callBack(66.7) is equivalent to calling a lambda function that returns Unit, but we have to return a lambda function not O/P of lambda function
+    //So don't use callBack(66.7) here
+    return callBack
 }
 
 
@@ -161,8 +163,8 @@ fun main() {
     println()
 
     //Example 5
-    val temp: () -> Unit = greeting()
-    temp()
+    val temp: (Double) -> Unit = greeting(77, ){k: Double -> println("Hurray! You have understood Higher Order functions.") }
+    temp(66.7)
     println()
 
     //Demonstration

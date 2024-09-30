@@ -1,0 +1,49 @@
+                                                Functions v/s Methods
+
+ Till now we have learned about creating multiple functions ans calling them inside our main function.
+ All of these functions can be called directly by their name and arguments if any.
+ The execution of any program file in kotlin always starts by main function
+ अभी तक जितने भी function हम बना रहे थे वह functional paradigm को represent कर रहे थे तो उनको हम सिंपली function कहेंगे।
+
+ अगर वहीं हम किसी class के अंदर उसका member function डिफाइन करते हैं, तो उसको हम method करते हैं।
+ The functional paradigm is a programming methodology that treats everything as a function, and is based on lambda calculus.
+ Its main focus is on “what to solve,” in contrast to an imperative style, where the main focus is on “how to solve.”
+
+ Object Oriented Programming on other hand organizes software design around objects, or data, instead of logic and functions.
+
+ Kotlin is mixture of both functional and object oriented programming style
+     fun main(){
+        //body
+     }
+                                            function without a class -> functional programming
+     fun greet(msg: String) : String{
+        return "Hello " + msg
+     }
+
+ -----------------------------------------------------------------------------------------------------------------------
+
+In case of call we can define and call any method by reference to its specific object
+Here methods are associated with the the class instance
+    class Example([properties]){ // constructor
+
+        fun getDetails() {
+            //Class method       यह f/n क्लास के अंदर है तो यह f/n क्लास के किसी ऑब्जेक्ट के साथ associated होगा और इसे हम meathod कहेगें।
+        }
+    }
+
+    fun getDetails() {
+        //Outside function
+    }
+
+    fun main() {
+        //calling simple outside function
+        getDetails();
+
+        //calling Class method
+        val obj: Example = Example()
+        obj.getDetails()
+
+    }
+
+
+

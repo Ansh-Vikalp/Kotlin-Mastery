@@ -1,4 +1,4 @@
-package exercise
+package Exercise
 
 import kotlin.math.sqrt
 

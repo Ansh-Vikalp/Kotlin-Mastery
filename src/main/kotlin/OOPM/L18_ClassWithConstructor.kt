@@ -2,9 +2,9 @@ package OOPM
 
 /* =================================================== PRIMARY CONSTRUCTOR =============================================
 Pichle lesson mai humne sikha ki agar hame class ki property define karni hai to use default value se kuch initialize bhi karna hoga
-Ye isliye important hai kyuki jab class ka object create hota hai to default constructor se comiple automatically object ko
+Ye isliye important hai kyuki jab class ka object create hota hai to default constructor se comipler automatically object ko
 memory deta lekin uski property ki kya value hogi usse nahi pata so hume batana parta ki object ki property me
-sab initial default value dalo so initialization is must when thre is no primary constructor made by you
+sab initial default value dalo so initialization is must when there is no primary constructor made by you.
 
 Lekin jab hum koi ek constructor bana dete to compiler ko pata chal jata ki object ki property ye sab hone wali hai
 to chahe uski default value do ya na do wo automatically apne corresponding default value se initialize ho jata.
@@ -13,6 +13,7 @@ Now hum ye chahte hai ye jo initialization hai usi vakt apne aap sari properties
 me hame set na karna pare.
 
 */
+
 /*
     Constructor are like member function that automatically get invoked when object of the class is created, they
     initialize the data member of object.

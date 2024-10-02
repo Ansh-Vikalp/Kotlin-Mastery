@@ -44,7 +44,7 @@ class Car{
      */
 
     //Overloading through chaining
-    //calling constrctor with 5 parameters
+    //calling constructor with 5 parameters
     constructor(carM: String, carCol: String, carDistance: Int, carTime: Int): this(carM, carCol, carDistance, carTime, 0.0){
         model = carM
         color = carCol
